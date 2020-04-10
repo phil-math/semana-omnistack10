@@ -12,7 +12,7 @@ const server = http.Server(app)
 
 setupWebsocket(server)
 
-mongoose.connect('mongodb+srv://phil:pmgs2104@cluster0-wxhk9.mongodb.net/omnistak10?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://<user>:<password>@cluster0-wxhk9.mongodb.net/omnistak10?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex:true
